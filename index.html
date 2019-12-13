@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Katia's solar-polar</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script>
+	<script src="script.js">
+	</script>
+
+	<svg height="1000" width="1000">
+
+		<polygon points="0,0 0,1000 1000,1000 1000,0" fill="url(#HI)" />
+
+		<radialGradient id="HI" x1="0%" y1="0%" x2="100%" y2="0%">
+			<stop offset="5%" stop-color="#82B1FF" />
+			<stop offset="10%" stop-color="black" />
+			<stop offset="59%" stop-color="black" />
+			<stop offset="57%" stop-color="#0037ff" />
+			<stop offset="70%" stop-color="black" />
+		</radialGradient>
+
+		<text x="10" y="50" fill="url(#H1)" stroke="blue" stroke-width="1" font-family="Bradley Hand" font-size="40">
+			THY PARALLEL UNIVERSE </text>
+
+		<linearGradient id="H1" x1="0%" y1="0%" x2="100%" y2="0%">
+			<stop offset="0%" stop-color="#2196F3" />
+			<stop offset="30%" stop-color="#f37f21" />
+			<stop offset="100%" stop-color="#2196F3" />
+		</linearGradient>
+
+		<!-- Gloop -->
+		<circle id="mercury" cx="500" cy="400" r="10" fill="#E040FB" />
+
+		<!-- Dyuiokjg -->
+		<circle id="venus" cx="500" cy="340" r="14" fill="#F8BBD0" />
+
+		<!-- Fsdfghytg -->
+		<circle id="earth" cx="500" cy="280" r="14" fill="url(#linearGrad)" />
+
+		<radialGradient id="linearGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+			<stop offset="0%" stop-color="#ff649a" />
+			<stop offset="100%" stop-color="#64ffc8" />
+		</radialGradient>
+
+		<!-- Polpkij -->
+		<circle id="mars" cx="500" cy="220" r="13" fill="#60042f" />
+
+		<!-- Salfok -->
+		<circle id="jupiter" cx="500" cy="150" r="30" fill="#00b39a" />
+
+		<!-- Xynklikom -->
+		<circle id="saturn" cx="500" cy="50" r="40" fill="#001fe5" />
+
+	</svg>
+
+
+</body>
+
+</html>
